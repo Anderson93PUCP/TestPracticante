@@ -1,0 +1,20 @@
+Pregunta Obligatoria
+
+Apache Cassandra
+
+Apache Cassandra es un sistema NoSQL, distribuido y preparado para Big Data,muchos  sitios web o plataformas como Facebook, twiter y netflix lo utilizan por su gran disponibilidad y almacenamiento de gran cantidad de datos.
+Distribuye la informacion mediante una funcion hash con una llave y valor.
+Su representacion es en forma de anillo porque distribuye la informacion por medio de funciones hash y no es como un motor de base datos comun donde las relaciones estan de forma Padre e hijo.Su lenguaje de consultas es CQL.
+La distribucion de la informacion no se centra en un solo servidor maestro sino que permite obtener una distribucion en multiples centro de datos.
+El modelo de datos de Cassandra consiste en particionar las filas, que son reorganizadas en tablas, estas tablas pueden crearse,eliminarse y alterarse en tiempo de ejcucion sin bloquear actualizaciones o consultas.
+
+Apache Cassandra y Python
+
+Por medio de Python se puede hacer una conexion mas sencilla a Apache Cassandra y trabajar desde ahi para poder hacer consultas para obtener informacion, insertar nuevos datos en el formato de llave y valor y eliminar informacion por medio de la llave.
+
+Bibliografia de consulta:
+Apache Cassandra and Python
+https://www.youtube.com/watch?v=mSqZLgS55-o
+
+Apache Cassandra
+https://es.wikipedia.org/wiki/Apache_Cassandra
